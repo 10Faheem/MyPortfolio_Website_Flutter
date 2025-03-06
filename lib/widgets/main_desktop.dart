@@ -38,8 +38,8 @@ class _MainDesktopState extends State<MainDesktop> {
               Row(
                 children: [
                   ElevatedButton(
-                    onPressed: () => downloadResume(
-                        'web/assets/download_files/Resume.pdf'),
+                    onPressed: () =>
+                        downloadResume('download_files/Resume.pdf'),
                     style: ElevatedButton.styleFrom(
                       overlayColor: Colors.black,
                       padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -76,6 +76,7 @@ class _MainDesktopState extends State<MainDesktop> {
 
 void downloadResume(String url) {
   html.AnchorElement(href: url)
+    ..target = 'blank'
     ..download = 'Resume.pdf'
     ..click();
 }
