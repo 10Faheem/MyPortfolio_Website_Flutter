@@ -1,11 +1,12 @@
 const List<Map> platformItems = [
   {
     "description": """
-Shoes Shopping & Weather App. The Shoes Shopping app offers a seamless browsing experience with dynamic product displays, 
-flipping animations, detailed descriptions, and easy checkout. The Weather app provides 
-real-time updates, forecasts, and alerts with a clean, intuitive interface and customizable themes. 
-Both apps are optimized for performance and responsiveness, ensuring a smooth user experience 
-across all devices. Uploaded on my github account.
+I have made several apps for android using flutter as a Freelancer. The apps that I am mostly proud of are Flexhour and
+Smart Wallet. Flexhour is a labour job posting app where users can post jobs and others can accept those jobs. It is a 
+full production app with payment gateway integration using Stripe and Firebase as a backend. The Smart Wallet App
+is my latest production app for my client. It is a simple and minimalistic app that allows users to manage their documents in 
+different categories and can also add their own custom categories. Users can download their documents and also upload them. You can 
+find these apps one on Appstore and the other on Playstore. I have made other several apps as well which you can find on my github account.
 """,
     "img": "web/assets/images/android_icon.png",
     "title": "Android Dev",
@@ -23,11 +24,13 @@ projects, skills, and contact information, emphasizing simplicity and profession
   },
   {
     "description": """
-Shoes Shopping & Weather App. The Shoes Shopping app offers a seamless browsing experience with dynamic product displays, 
-flipping animations, detailed descriptions, and easy checkout. The Weather app provides 
-real-time updates, forecasts, and alerts with a clean, intuitive interface and customizable themes. 
-Both apps are optimized for performance and responsiveness, ensuring a smooth user experience 
-across all devices. Uploaded on my github account.
+I have made several apps for IOS using flutter as a Freelancer. The apps that I am mostly proud of are Flexhour and
+Smart Wallet. Flexhour is a labour job posting app where users can post jobs and others can accept those jobs. It is a 
+full production app with payment gateway integration using Stripe and Firebase as a backend. The Smart Wallet App
+is my latest production app for my client. It is a simple and minimalistic app that allows users to manage their documents in 
+different categories and can also add their own custom categories. Users can download their documents and also upload them.
+You can find these apps one on Appstore and the other on Playstore. I have made other several apps as well which you can find on my github account.
+
 """,
     "img": "web/assets/images/ios_icon.png",
     "title": "IOS Dev",
@@ -51,6 +54,18 @@ const List<Map> skillItems = [
   {
     "img": "web/assets/images/dart.png",
     "title": "Dart",
+  },
+  {
+    "img": "web/assets/images/firebase.png",
+    "title": "Firebase",
+  },
+  {
+    "img": "web/assets/images/mongodb.png",
+    "title": "MongoDB",
+  },
+  {
+    "img": "web/assets/images/mysql.png",
+    "title": "MySQL",
   },
   {
     "img": "web/assets/images/html5.png",

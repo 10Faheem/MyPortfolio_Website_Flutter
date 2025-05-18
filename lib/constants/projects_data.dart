@@ -1,6 +1,16 @@
 const List<Map> projectsData = [
   {
     "img": "web/assets/images/flutter.png",
+    "title": "Flexhour App",
+    'url': 'https://github.com/10Faheem',
+  },
+  {
+    "img": "web/assets/images/flutter.png",
+    "title": "Smart Wallet App",
+    'url': 'https://github.com/10Faheem',
+  },
+  {
+    "img": "web/assets/images/flutter.png",
     "title": "Portfolio Wesbite",
     'url': 'https://github.com/10Faheem',
   },

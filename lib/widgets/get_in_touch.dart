@@ -54,10 +54,9 @@ class GetInTouch extends StatelessWidget {
             width: 300,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                overlayColor: Colors.black,
                 shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10)),
-                backgroundColor: const Color.fromARGB(255, 252, 120, 68),
+                    borderRadius: BorderRadius.circular(8)),
+                backgroundColor: CustomColor.accentColor,
                 foregroundColor: CustomColor.whitePrimary,
               ),
               onPressed: () {

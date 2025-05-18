@@ -64,9 +64,17 @@ class _HomePageState extends State<HomePage> {
 
               // Main
               if (constraints.maxWidth >= constraintWidth)
-                const MainDesktop()
+                MainDesktop(
+                  onNavMenuTap: (int navIndex) {
+                    scrollToSection(navIndex);
+                  },
+                )
               else
-                const MainMobile(),
+                MainMobile(
+                  onNavMenuTap: (int navIndex) {
+                    scrollToSection(navIndex);
+                  },
+                ),
 
               // Skills
               if (constraints.maxWidth >= constraintWidth)
@@ -82,10 +90,12 @@ class _HomePageState extends State<HomePage> {
               if (constraints.maxWidth >= constraintWidth)
                 ProjectsDesktop(
                   key: navBarKeys[2],
+                  id: 'projects-section',
                 )
               else
                 ProjectsMobile(
                   key: navBarKeys[2],
+                  id: 'projects-section',
                 ),
 
               // Contact

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_portfolio/constants/colors.dart';
 
 class SiteLogo extends StatelessWidget {
   const SiteLogo({super.key, this.onTap});
@@ -13,7 +14,7 @@ class SiteLogo extends StatelessWidget {
         style: TextStyle(
           fontSize: 22,
           fontWeight: FontWeight.bold,
-          color: Color.fromARGB(255, 252, 120, 68),
+          color: CustomColor.accentColor,
         ),
       ),
     );
